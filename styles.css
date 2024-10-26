@@ -12,3 +12,12 @@ html {
     line-height: 1.5em;
     color: #000000;
 }
+
+/* LAYOUT */
+nav, ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
