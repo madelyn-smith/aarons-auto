@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* TEXT */
 html {
     font-family: "transducer", sans-serif;
     font-weight: 400;
@@ -13,11 +14,54 @@ html {
     color: #000000;
 }
 
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+a:focus {
+    outline: 1px solid black;
+    outline-offset: 5px;
+}
+
+a:active {
+    border-bottom: 3px solid black;
+}
+
 /* LAYOUT */
+main {
+    /* max-width: 37.563rem; /*combination of the padding on either side in pixels (4rem=64px) and the max line width (537px)*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 4.5rem;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 25%;
+    max-height: 5.25rem;
+}
+
 nav, ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
 }
 
+li {
+    padding-left: 2rem;
+}
