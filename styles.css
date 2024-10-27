@@ -165,7 +165,7 @@ nav li {
         text-align: center;
     }
 
-    img.staff {
+    img.center-float {
         display: block;
         width: 100%;
         max-width: 20rem;
@@ -186,7 +186,7 @@ footer div {
 
 @media screen and (min-width: 50rem) {
 
-    img.staff {
+    img.center-float {
         width: 50%;
         float: right;
         margin-left: 2rem;
