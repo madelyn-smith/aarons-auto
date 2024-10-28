@@ -202,7 +202,7 @@ footer {
 
 }
 
-footer div {
+footer div.footerContainer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -213,7 +213,7 @@ footer div {
     max-width: 75rem;
 }
 
-footer section {
+footer div.bottomLinks {
     padding-left: 2rem;
     padding-right: 2rem;
     flex-grow: 1;
@@ -266,7 +266,7 @@ nav li {
 
 @media screen and (max-width: 70rem) {
 
-footer div {
+footer div.footerContainer {
     flex-flow: row wrap;
     justify-content: flex-start;
 }
